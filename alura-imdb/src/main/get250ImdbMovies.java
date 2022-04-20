@@ -1,6 +1,6 @@
 package main;
 
-import main.Helpers.FileHandler;
+import main.helpers.FileHandler;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 
 public class get250ImdbMovies {
     public static void main(String[] args) throws Exception {
-        String apiKey = FileHandler.getApiKeyFromConfigFile();
+        final String apiKey = FileHandler.getApiKeyFromConfigFile();
 
         final var imdbUri = "https://imdb-api.com/en/api/top250movies/" + apiKey;
 
