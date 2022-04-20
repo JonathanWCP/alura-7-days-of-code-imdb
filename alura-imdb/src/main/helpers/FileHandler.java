@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package main.Helpers;
+=======
+package main.helpers;
+>>>>>>> 4eb60d79e4e3c06732a25dc26d40cf40759f8529
 
 import java.io.BufferedReader;
 import java.io.File;
